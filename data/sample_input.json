@@ -1,0 +1,45 @@
+{
+  "project_name": "Enterprise Data Storage Modernization",
+  "mission_need": "The organization requires scalable, secure, and cost-effective data storage to support business growth and regulatory compliance over the next decade.",
+  "requirements": [
+    "Store at least 10 PB, scalable to 20 PB",
+    "99.99% uptime",
+    "Compliance with relevant cybersecurity standards",
+    "Total cost of ownership not to exceed $20M over 10 years"
+  ],
+  "alternatives": [
+    {
+      "name": "Upgrade Existing Storage",
+      "description": "Expand current on-premises storage infrastructure with new hardware and software."
+    },
+    {
+      "name": "Build New Onsite Data Center",
+      "description": "Construct a new facility dedicated to data storage with modern equipment."
+    },
+    {
+      "name": "Adopt Commercial Cloud Storage",
+      "description": "Migrate all storage needs to a commercial cloud provider (e.g., AWS, Azure, GCP)."
+    }
+  ],
+  "constraints": [
+    "Must comply with organizational cybersecurity policies",
+    "Budget limit: $20M",
+    "Implementation must not disrupt ongoing operations"
+  ],
+  "evaluation_criteria": [
+    {"criterion": "Cost", "weight": 0.4},
+    {"criterion": "Security", "weight": 0.3},
+    {"criterion": "Scalability", "weight": 0.2},
+    {"criterion": "Implementation Time", "weight": 0.1}
+  ],
+  "cost_estimates": [
+    {"alternative": "Upgrade Existing Storage", "cost": 8, "time": 6},
+    {"alternative": "Build New Onsite Data Center", "cost": 18, "time": 18},
+    {"alternative": "Adopt Commercial Cloud Storage", "cost": 12, "time": 3}
+  ],
+  "team": [
+    {"name": "Jane Doe", "role": "Project Lead"},
+    {"name": "John Smith", "role": "Cost Analyst"},
+    {"name": "Alice Lee", "role": "IT Security SME"}
+  ]
+}
